@@ -1,0 +1,6 @@
+# Bỏ qua thư mục dữ liệu và models nặng
+2-0DataDuKien/
+
+# Bỏ qua file hệ thống
+.DS_Store
+Thumbs.db
