@@ -9,7 +9,34 @@ Chào mừng đến với kho mã nguồn chính thức của dự án **SENTIO*
 
 ## 📂 Cấu trúc Dự án
 
-Dự án được tổ chức thành các thư mục chính theo chức năng:
+Dưới đây là cây thư mục chi tiết của dự án:
+
+```text
+HoaDienVi/
+├── 0-0-TomTatBaoCaoVong1.md        # Tóm tắt báo cáo Vòng 1
+├── 1-0-CongNgheDuKien.md           # Tech Stack & Kiến trúc
+├── 1-1-Des/                        # Tài nguyên thiết kế (UI/UX, Images)
+├── 2-0DataDuKien/                  # Dữ liệu thô & Notebooks sơ khởi
+│   ├── Combine_data/               # Notebooks gộp dữ liệu
+│   └── Sentio_Datastorm_2025/      # Dataset gốc & Pipeline xử lý
+├── 2-1Data/                        # Dữ liệu hệ thống & Scripts DB
+│   ├── PostgreSQL/                 # Scripts SQL & Config
+│   ├── Supabase-Storage/           # Config lưu trữ media
+│   └── SETUP_GUIDE.md              # Hướng dẫn setup Data
+├── 2-2Models/                      # AI Engines (Core)
+│   ├── TryOn/                      # Module Thử đồ ảo
+│   │   ├── IDM-VTON/               # Source code model Diffusion
+│   │   └── LuuY_CaiDat_TryOn.md    # ⚠️ Hướng dẫn cài đặt Model
+│   ├── DuBaoGia/                   # Module Dự báo giá (LightGBM)
+│   └── KienThucModels.md           # Tài liệu kỹ thuật AI
+├── 2-3-App-NguoiDung/              # Ứng dụng End-User
+│   ├── fe/                         # Frontend (Next.js 16)
+│   └── be/                         # Backend (FastAPI)
+├── 2-4-App-Dashbroad/              # Dashboard Merchant
+└── README.md                       # File hướng dẫn này
+```
+
+Chi tiết chức năng từng thư mục:
 
 ### 1. Tài liệu & Báo cáo
 *   `0-0-TomTatBaoCaoVong1.md`: Tóm tắt ý tưởng, vấn đề và giải pháp của dự án trong Vòng 1.
@@ -67,4 +94,10 @@ Trái tim thông minh của Sentio, chứa các engine AI chính.
 ---
 
 ## 📞 Liên hệ
-Mọi thắc mắc về kỹ thuật hoặc triển khai, vui lòng liên hệ nhóm **Hoa Diên Vĩ**.
+
+Mọi thắc mắc hoặc đóng góp cho dự án, vui lòng liên hệ:
+
+*   **Thành viên:** Phạm Hoàng Anh Tú
+*   **SĐT:** 0782770973
+*   **Email cá nhân:** [tu35pha@gmail.com](mailto:tu35pha@gmail.com)
+*   **Email tổ chức:** [23521703@gmail.com](mailto:23521703@gmail.com)
