@@ -7,4 +7,10 @@ Thumbs.db
 
 # Python virtual environment
 .venv/
+2-2Models/TryOn/IDM-VTON/env/
+
+# Large Model Weights & Generated Outputs
+2-2Models/TryOn/IDM-VTON/ckpt/
+2-2Models/TryOn/IDM-VTON/yisol/
+2-2Models/TryOn/IDM-VTON/output_test/
 
