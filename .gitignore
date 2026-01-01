@@ -8,6 +8,3 @@ Thumbs.db
 # Python virtual environment
 .venv/
 
-# Large data files (>100MB)
-2-1Data/Sentio_Datastorm_2025/dataset/Input (BTC)/customers.csv
-2-1Data/Sentio_Datastorm_2025/dataset/Input (BTC)/transactions.csv
